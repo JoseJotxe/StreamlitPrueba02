@@ -1,3 +1,8 @@
-pandas
-streamlit
-scikit learn
+### LIBRERIAS
+import streamlit as st  #libreria de streamlit
+import pandas as pd 
+
+#ML
+#import sklearn
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
